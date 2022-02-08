@@ -24,5 +24,15 @@ The task is to build the Figma design provided in React. You'll want to make sur
 
 If you have any issues with the repo, API, or Figma file, please reach out to me so we can get it resolved. If something isn't working as expected it could be a setting that needs to be updated on my end.
 
-<img width="1433" alt="Screen Shot 2022-02-07 at 10 16 36 PM" src="https://user-images.githubusercontent.com/67929846/152929264-3d60dd54-faa5-4e99-bc36-2505c2bff33d.png">
+<img width="490" alt="Screen Shot 2022-02-07 at 11 47 32 PM" src="https://user-images.githubusercontent.com/67929846/152941597-172178cc-15a3-4fee-9c74-6c802aa67b76.png">
+
+<img width="491" alt="Screen Shot 2022-02-07 at 11 47 44 PM" src="https://user-images.githubusercontent.com/67929846/152941621-61e7b5f6-8e1d-4983-b4a5-507013d56d48.png">
+
+<img width="1353" alt="Screen Shot 2022-02-07 at 11 47 56 PM" src="https://user-images.githubusercontent.com/67929846/152941663-c7949be7-2a3d-4707-855f-ac7c0f831f2a.png">
+
+<img width="1430" alt="Screen Shot 2022-02-07 at 11 48 16 PM" src="https://user-images.githubusercontent.com/67929846/152941695-aa723e89-e0fc-4a48-ab9b-e2909c05ad70.png">
+
+
+
+
 
