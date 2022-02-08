@@ -45,12 +45,15 @@
     .clicked {
       #line1 {
         transform: translate(30%, -20%) rotate(45deg);
+        fill: white;
       }
       #line2 {
         transform: translateX(100%);
+        fill: white;
       }
       #line3 {
         transform: translate(42%, 8%) rotate(-45deg);
+        fill: white;
       }
     }
     &-links {
