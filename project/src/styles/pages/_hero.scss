@@ -1,100 +1,115 @@
 .hero {
   min-height: 100vh;
-  @include respond(large){
-   display: flex;
-}
-
+  @include respond(large) {
+    display: flex;
+  }
+  &__content::before {
+    content: "";
+    width: 29rem;
+    height: 29rem;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #f8eae8 0%,
+      rgba(248, 234, 232, 0) 100%
+    );
+    position: absolute;
+    z-index: -1;
+    top: 5rem;
+    left:.5rem;
+    border-radius: 100%;
+  }
   &__content {
     padding: 2rem 2rem;
-    @include respond(medium){
-        padding: 2rem 5rem;
+    position: relative;
+    @include respond(medium) {
+      padding: 2rem 5rem;
     }
-    @include respond(large){
-        padding: 2rem 2rem 2rem 7rem;
-        width: 55vw;
+    @include respond(large) {
+      padding: 2rem 2rem 2rem 7rem;
+      width: 55vw;
     }
-    &-top{
-        width: 100%;
-        padding: 1rem 0;
-        display: flex;
-        justify-content: space-between;
-        @include respond(large){
-            padding: 1rem 0 3rem 0;
+    &-top {
+      width: 100%;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: space-between;
+      @include respond(large) {
+        padding: 1rem 0 3rem 0;
+      }
+      &-stars {
+        @include respond(large) {
+          display: none;
         }
-        &-stars{
-            @include respond(large){
-                display: none;
-            }
-        }
+      }
     }
+
     &-header {
       font-family: $font-header;
       font-size: 4rem;
-      span{
-          font-weight: bold;
+      position: relative;
+      span {
+        font-weight: bold;
       }
     }
-    &-arrow{
-        margin: 2rem 0;
+    &-arrow {
+      margin: 2rem 0;
     }
-    &-links{
-        margin: 2.5rem 0;
-        @include respond(large){
-            margin: 4rem 0;
-        }
-        align-items: center;
-        button{
-            border: none;
-            border-radius: 2rem;
-            background-color:#11253E ;
-            color: white;
-            font-weight: bold;
-            padding: .6rem 2rem ;
-        }
-        a{
-            color:#11253E ;
-            font-family: $font-bold;
-            margin-right: 10px;
-        }
+    &-links {
+      margin: 2.5rem 0;
+      @include respond(large) {
+        margin: 4rem 0;
+      }
+      align-items: center;
+      button {
+        border: none;
+        border-radius: 2rem;
+        background-color: #11253e;
+        color: white;
+        font-weight: bold;
+        padding: 0.6rem 2rem;
+      }
+      a {
+        color: #11253e;
+        font-family: $font-bold;
+        margin-right: 10px;
+      }
     }
-    &-info{
-        margin-bottom: 2.3rem;
-        &-label{
-            font-size: .7rem;
-            margin-bottom: 8px;
-            @include respond(large){
-                font-size: 1rem;
-            }
+    &-info {
+      margin-bottom: 2.3rem;
+      &-label {
+        font-size: 0.7rem;
+        margin-bottom: 8px;
+        @include respond(large) {
+          font-size: 1rem;
         }
-        &-num{
-            font-family: $font-bold;
-            @include respond(large){
-                font-size: 1.2rem;
-            }
+      }
+      &-num {
+        font-family: $font-bold;
+        @include respond(large) {
+          font-size: 1.2rem;
         }
-        &-col{
-            border-right: solid 2px #E5E5E5;
-        }
-        &-col:nth-child(2){
-            margin: 0 1.3rem;
-        }
-        
-
+      }
+      &-col {
+        border-right: solid 2px #e5e5e5;
+      }
+      &-col:nth-child(2) {
+        margin: 0 1.3rem;
+      }
     }
-    &-image{
+    &-image {
+      width: 100%;
+      img {
+        @include respond(large) {
+          display: none;
+        }
         width: 100%;
-        img{
-            @include respond(large){
-                display:none
-            }
-            width:100%;
-        }
+      }
     }
   }
   &__image {
     display: none;
-    @include respond(large){
-        display: block;
+    @include respond(large) {
+      display: block;
     }
   }
 }
