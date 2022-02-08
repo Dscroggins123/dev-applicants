@@ -23,3 +23,6 @@ The task is to build the Figma design provided in React. You'll want to make sur
 #### _Note_
 
 If you have any issues with the repo, API, or Figma file, please reach out to me so we can get it resolved. If something isn't working as expected it could be a setting that needs to be updated on my end.
+
+<img width="1433" alt="Screen Shot 2022-02-07 at 10 16 36 PM" src="https://user-images.githubusercontent.com/67929846/152929264-3d60dd54-faa5-4e99-bc36-2505c2bff33d.png">
+
