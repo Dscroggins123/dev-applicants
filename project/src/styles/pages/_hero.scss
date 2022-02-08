@@ -19,7 +19,7 @@
     border-radius: 100%;
   }
   &__content {
-    padding: 2rem 2rem;
+    padding: 2rem 1.8rem;
     position: relative;
     @include respond(medium) {
       padding: 2rem 5rem;

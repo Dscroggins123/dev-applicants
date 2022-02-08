@@ -26,9 +26,9 @@ const Features = () => {
   return (
     <div className="features">
       <h1>Experience The Cardo</h1>
-      <GridRow wrap='wrap'>
+      <GridRow wrap='wrap' justify="center" >
        {content ? content.map((el)=>   
-      <GridColumn p={'s'}  width={[12, 12, 4]} >
+      <GridColumn p={'s'}  width={[12,12,4]} >
           <Card
           title={el.title}
           description={el.description}

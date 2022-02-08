@@ -1,6 +1,7 @@
 .features{
     min-height: 100vh;
     padding: 2rem 2rem;
+    
     @include respond(medium){
         padding: 2rem 5rem;
     }
