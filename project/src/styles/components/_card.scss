@@ -1,0 +1,30 @@
+.card{
+    background-color: $color-dark-card;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 0;
+    align-items: flex-start;
+    max-width: 25rem;
+ &-title{
+     font-family: $font-header;
+     font-weight: lighter;
+     font-size: 2.2rem;
+     margin: 0 0 1rem 0;
+ }
+ &-description{
+     opacity: .6;
+ }
+ &-button{
+    border: none;
+    border-radius: 2rem;
+    font-family: $font-bold;
+    background: #A5AFD4;
+    color: white;
+    padding: .6rem 2rem ;
+    margin: 1rem 0 0 0;
+    text-decoration: none;
+
+ }
+}
