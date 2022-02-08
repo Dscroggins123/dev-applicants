@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dev-applicants/static/css/main.44bc9f27.css",
+    "main.js": "/dev-applicants/static/js/main.37bf4825.js",
+    "static/media/cardo_card.svg": "/dev-applicants/static/media/cardo_card.79eb2e9228f2607a5f13faaacdba8d45.svg",
+    "static/media/Graphic.png": "/dev-applicants/static/media/Graphic.6aa2d86a509bddd861f8.png",
+    "static/media/cardo_card.png": "/dev-applicants/static/media/cardo_card.ac2e94a5bd43873dd631.png",
+    "index.html": "/dev-applicants/index.html",
+    "main.44bc9f27.css.map": "/dev-applicants/static/css/main.44bc9f27.css.map",
+    "main.37bf4825.js.map": "/dev-applicants/static/js/main.37bf4825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44bc9f27.css",
+    "static/js/main.37bf4825.js"
+  ]
+}
